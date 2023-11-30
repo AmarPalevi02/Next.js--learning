@@ -2,12 +2,14 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-const LayoutPage = ({children}) => {
+const LayoutPage = ({ children }) => {
   return (
     <div>
-        <Navbar />
+      <Navbar />
+      <main className='px-5'>
         {children}
-        <Footer />
+      </main>
+      <Footer className=""/>
     </div>
   )
 }

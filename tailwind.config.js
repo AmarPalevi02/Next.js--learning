@@ -10,6 +10,17 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      xs: '375px',
+      ss: '640px',
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px"
+    },
+
+    colors: {
+      primary: '#637E76'
+    }
   },
   plugins: [],
 }
