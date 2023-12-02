@@ -9,7 +9,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bacground: '#000000',
+        gray: '#9A9A9A',
+        gray1: '#C4C4C4',
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+    },
     screens: {
       xs: '375px',
       ss: '640px',
@@ -17,11 +26,6 @@ module.exports = {
       md: "1060px",
       lg: "1200px"
     },
-
-    colors: {
-      bacground: '#000000'
-
-    }
   },
   plugins: [],
 }
