@@ -5,7 +5,7 @@ const LayoutPage = ({ children }) => {
   return (
     <div className='flex bg-bacground h-[100vh]'>
       <Navbar />
-      <main className='px-5'>
+      <main className='w-[100%]'>
         {children}
       </main>
     </div>

@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='px-5 py-5 bg-primary w-[240px]'>
       <ul className='flex justify-between '>
         <nav className='text-gray text-lg cursor-pointer flex gap-5 flex-col '>
-          <Link href={'/home'}>
+          <Link href={'/'}>
             <li className='flex items-center gap-3 font-semibold '>
               <GoHome className='text-[25px]' />
               <p className='text-[17px]'>
@@ -29,7 +29,7 @@ const Navbar = () => {
               </p>
             </li>
           </Link>
-          <Link href={'/'}>
+          <Link href={'/wwe'}>
             <li className='flex items-center gap-3 font-semibold'>
               <BiLibrary className='text-[25px]' />
               <p className='text-[17px]'>
@@ -37,7 +37,7 @@ const Navbar = () => {
               </p>
             </li>
           </Link>
-          <Link href={'/'}>
+          <Link href={'/ewew'}>
             <li className='flex items-center gap-3 font-semibold'>
               <GrSatellite className='text-[25px]' />
               <p className='text-[17px]'>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <nav className='text-gray mt-[36px] '>
         <ul className='border-b-2 border-[#242424]'>
-          <Link href={'/'}>
+          <Link href={'/ewew'}>
             <li className='flex items-center gap-3 font-semibold mb-5'>
               <div className="bg-gray1 rounded-sm w-[25px] h-[25px] flex items-center text-center">
                 <FaPlus className='text-bacground text-[16px] font-bold text-center w-full' />
@@ -60,7 +60,7 @@ const Navbar = () => {
               </p>
             </li>
           </Link>
-          <Link href={'/'}>
+          <Link href={'/ff'}>
             <li className='flex items-center gap-3 font-semibold mb-5'>
               <div className="bg-gradient-to-r from-green-400 to-blue-500 rounded-sm w-[25px] h-[25px] flex items-center text-center">
                 <FaHeart className='text-gray text-[16px] font-bold text-center w-full' />
@@ -70,7 +70,7 @@ const Navbar = () => {
               </p>
             </li>
           </Link>
-          <Link href={'/'}>
+          <Link href={'/fdf'}>
             <li className='flex items-center gap-3 font-semibold mb-8'>
               <div className="bg-[#003E31] rounded-sm w-[25px] h-[25px] flex items-center text-center">
                 <BiBullseye className='text-[#14923B] text-[16px] font-bold text-center w-full' />

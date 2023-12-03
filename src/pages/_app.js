@@ -3,7 +3,7 @@ import LayoutPage from '@/components/Layout'
 
 export default function App({ Component, pageProps }) {
   return (
-    <LayoutPage >
+    <LayoutPage>
       <Component {...pageProps} />
     </LayoutPage>
   )
