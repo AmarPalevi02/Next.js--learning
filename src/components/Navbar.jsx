@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='px-5 py-5 bg-primary w-[240px]'>
       <ul className='flex justify-between '>
-        <nav className='text-gray text-lg cursor-pointer xs:hidden sm:flex gap-5 flex-col '>
+        <nav className='text-gray text-lg cursor-pointer flex gap-5 flex-col '>
           <Link href={'/home'}>
             <li className='flex items-center gap-3 font-semibold '>
               <GoHome className='text-[25px]' />
