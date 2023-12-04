@@ -10,7 +10,7 @@ import { BiBullseye } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className='px-5 py-5 bg-primary w-[240px]'>
+    <div className='px-5 py-5 bg-bcground w-[240px] h-[100vh] min-h-[100vh] overflow-y-hidden top-0 sticky '>
       <ul className='flex justify-between '>
         <nav className='text-gray text-lg cursor-pointer flex gap-5 flex-col '>
           <Link href={'/'}>

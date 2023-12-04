@@ -1,11 +1,19 @@
 import React from 'react'
 import NavbarHome from '@/components/Home/Navbar'
+import Title from '@/components/Title'
+import HistoryPlay from '@/components/Home/HistoryPlay'
 
 const Home = ({ data }) => {
     // console.log(data)
     return (
         <>
-            <NavbarHome />
+            <div className="">
+                <NavbarHome />
+                <div className="px-2 mt-5 h-[1000px]">
+                    <Title>Selamat Malam</Title>
+                    <HistoryPlay />
+                </div>
+            </div>
         </>
     )
 }
