@@ -2,7 +2,7 @@ import React from 'react'
 import { logo } from '@/assets'
 import Image from 'next/image'
 
-const HistoryPlay = () => {
+const HistoryPlay = ({datas}) => {
     return (
         <div className='w-full flex justify-between '>
             <div className="w-[240px] h-[45px] flex bg-zinc-700 items-center gap-2 rounded-lg">
