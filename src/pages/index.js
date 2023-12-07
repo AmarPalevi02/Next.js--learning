@@ -21,13 +21,13 @@ const Home = ({ data }) => {
 export default Home
 
 export async function getServerSideProps(context) {
-    const res = await fetch(`https://api.spotify.com/v1/shows?market=ID&ids=5CfCWKI5pZ28U0uOzXkDHe%2C5as3aKmN2k11yfDDDSrvaZ`, {
+    const res = await fetch('https://api.spotify.com/v1/albums?ids=382ObEPsp2rxGrnsizN5TX%2C1A2GTWGtFfWp7KSQTwWOyo%2C2noRn2Aes5aoNVsU6iWThc&market=ID', {
         headers: {
             Authorization: `Bearer ${process.env.REFRESH_TOKEN}`
         }
     }).then(response => response.json())
 
-   const response = res.shows;
+   const response = res.albums;
     return {
         props: { data: response },
     };
